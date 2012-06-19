@@ -1,0 +1,23 @@
+{
+  "author": "Toshihiro Shimizu <shimizu.toshihiro@gmail.com>",
+  "name": "angularjs-socketio-node-sample",
+  "description": "ToDo application using AngularJS, Socket.IO and Node.",
+  "version": "0.0.0-1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meso/angularjs-socketio-node-sample.git"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.6",
+    "connect": "~2.3.3"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "start": "server.js"
+  },
+  "subdomain": "angularTodo"
+}
